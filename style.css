@@ -93,12 +93,9 @@ html, body {height: 100%;}
   transform: translateY(-7px);
 }
 
-
-
 body{
-  background: #4DA0B0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #2884b8;
+  background-image: linear-gradient(315deg, #2884b8 0%, #d1bad2 74%);
 }  
 
 h1 {
@@ -106,14 +103,14 @@ h1 {
   text-align: center;
   color:white;
   text-shadow: 0px 15px 20px rgba(119, 29, 0, 0.73);
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
   font-size: 40px;
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
   line-height: 44px;
 }
-
 
 
 h2{
@@ -129,7 +126,8 @@ h2{
 
 h3{
   color: white;
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 300;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   margin-bottom: 5px;
   margin-right: 5px;
   position: absolute;
@@ -138,25 +136,29 @@ h3{
 }
 
 
-
-
-
-
-ul {
-  font-size: 25px;
-  list-style: none;  
-  margin-top: 8%;
-  margin-left: 25%;
-  margin-right: 25%;
-  color: white;
-  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+li{  
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  margin: 0 0 30px 0;
+  background: aliceblue;
   text-align: center;
+  font-size: 20px;
+  max-width: 10em;
+  padding: 0.5em 1em;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  cursor: pointer; 
+  border: solid 1px #ddd;
+  border-radius: 45px;
 }
 
-.close {
-  position: relative;
-  padding: 12px 15px 17px 106px;
+li:hover{
+  text-decoration: line-through;
+  background-color: #84fb95;
 }
+
 
 
 
