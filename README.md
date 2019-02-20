@@ -1,4 +1,4 @@
-# TodoList---HTML-CSS-JS
+# TodoApp
 This is a personal project for my own developement.
 
 ## Description?
