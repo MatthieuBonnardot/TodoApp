@@ -70,11 +70,12 @@ html, body {height: 100%;}
   align-items: center;
   justify-content: center;
 }
+
 .addBtn {
   width: 70px;
   height: 35px;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -85,7 +86,7 @@ html, body {height: 100%;}
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
-  }
+}
 
 .addBtn:hover {
   background-color: #689F38;
@@ -98,7 +99,7 @@ html, body {height: 100%;}
   width: 70px;
   height: 35px;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
@@ -160,7 +161,7 @@ h3{
 }
 
 
-li{ 
+.panel-group{ 
     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     text-align: center;
     font-size: 27px; 
@@ -171,14 +172,45 @@ li{
     margin: 0 auto;
     position:relative;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-    border-radius: 10px;
+    border-radius: 45px;
     margin-block-end: 16px;
     margin-top: 16px;
 }
 
-li:hover{
-  text-decoration: line-through;
-  background-color: #689F38;
+.Delete_btn{
+  width: 70px;
+  height: 35px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: transparent;
+  cursor: pointer;
+}
+
+.Delete_btn:hover{
+  color: #ff5722;
+}
+
+.Done_btn{
+  width: 70px;
+  height: 35px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: transparent;
+  cursor: pointer;
+}
+
+.Done_btn:hover{
+  color: #689F38;
 }
 
 
